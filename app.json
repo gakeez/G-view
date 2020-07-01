@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/big-wheel/index"
+    "pages/big-wheel/index",
+    "components/wheel/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

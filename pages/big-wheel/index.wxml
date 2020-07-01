@@ -1,2 +1,16 @@
 <!--pages/big-wheel/index.wxml-->
-<text>pages/big-wheel/index.wxml</text>
+<!-- 大转盘 -->
+<view class="page-wheel">
+<!-- 引用转盘组件 -->
+  <wheel id="wheel" award-numer="{{award}}"  mode="{{mode}}" bind:start="wheelStart" bind:success="wheelSuccess"></wheel>
+  <!-- 按键区 -->
+  <view class="wheel-mode">
+    <view>旋转模式：</view>
+    <view class="g-button  {{mode=='1'?'g-button--danger':''}}" data-type="1" bindtap="switchMode">
+      指针旋转
+    </view>
+    <view class="g-button  {{mode=='2'?'g-button--danger':''}}" data-type="2" bindtap="switchMode">
+      转盘旋转
+    </view>
+  </view>
+</view>
