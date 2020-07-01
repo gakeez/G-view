@@ -12,7 +12,7 @@ Page({
               {
                   id: 'big-wheel',
                   url: '/pages/big-wheel/index',
-                  name: '大转盘动画',
+                  name: '图片版大转盘动画',
                   show: true
               },
               /* {

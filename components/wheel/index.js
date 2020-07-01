@@ -57,11 +57,13 @@ Component({
           this.data.isStart = true
           let endAddAngle = 0
           if (mode == 2) {
+              /* 因为走的方向是反的，所以最后要用360减去，获取纠正后的角度 */
               endAddAngle = 360 - ((awardNumer - 1) * singleAngle + singleAngle / 2) // 中奖角度
           } else {
-              endAddAngle = (awardNumer - 1) * singleAngle + singleAngle / 2 + 360 // 中奖角度
+              endAddAngle = (awardNumer - 1) * singleAngle + singleAngle / 2 // 中奖角度
           }
           const rangeAngle = (Math.floor(Math.random() * 4) + 4) * 360 // 随机旋转几圈再停止
+          console.log('中奖区域：'+awardNumer)
           console.log('中奖角度：'+endAddAngle)
           console.log('随机转圈总角度：'+rangeAngle)
           let cAngle
