@@ -1,21 +1,52 @@
 /**index.wxss**/
-.userinfo {
+.container {
+  padding: 45px 20px 20px;
+}
+
+.title {
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+.title-text {
+  display: inline-block;
+  /* 属性设置元素的垂直对齐方式。 */
+  vertical-align: middle;
+  font-size: 32px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.kind-list-item {
+  margin: 20rpx 0;
+  background-color: #fff;
+  border-radius: 4rpx;
+  overflow: hidden;
+}
+
+.kind-list-item-hd {
+  padding: 20rpx;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  transition: opacity 0.3s;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.kind-list-text {
+  flex: 1;
+  font-size: 32rpx;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.kind-list-arraw {
+  width: 28px;
+  height: 28px;
+  font-size: 26px;
 }
 
-.usermotto {
-  margin-top: 200px;
+.navigator {
+  position: relative;
+  display: block;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }

@@ -1,10 +1,19 @@
 /**app.wxss**/
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
+@import "./assets/css/iconfont.wxss";
+
+/* 编译后，会自动有page标签在最外层 */
+page {
+  color: #333;
+  font-size: 16px;
+  background: #f2f3f5;
+  min-height: 100vh;
+  /* box-sizing 属性允许您以特定的方式定义匹配某个区域的特定元素。 border-box 可通过将 box-sizing 设置为 "border-box"。这可令浏览器呈现出带有指定宽度和高度的框，并把边框和内边距放入框中。*/
   box-sizing: border-box;
-} 
+  /* 
+    font-smoothing是非标准的CSS定义。它被列入标准规范的草案中，后由于某些原因从web标准中被移除了。
+    前缀-webkit是chrome和safari的私有属性，-moz是Firefox的私有属性。
+    对字体进行抗锯齿渲染可以使字体看起来会更清晰舒服。在图标字体成为一种趋势的今天，抗锯齿渲染使用也越来越多。
+  */
+  -webkit-font-smoothing: antialiased;
+  font-family: 'PingFang SC', Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, Arial, sans-serif;
+}

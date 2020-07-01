@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "pages": [
+    "pages/index/index",
+    "pages/big-wheel/index"
+  ],
+  
+  
+  "sitemapLocation": "sitemap.json"
 }
