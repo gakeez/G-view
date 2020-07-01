@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/big-wheel/index",
-    "components/wheel/index"
+    "components/wheel/index",
+    "pages/css-wheel/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
