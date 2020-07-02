@@ -69,6 +69,13 @@
 					"id": -1,
 					"name": "pages/big-wheel/index",
 					"pathName": "pages/big-wheel/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/css-wheel/index",
+					"pathName": "pages/css-wheel/index",
 					"scene": null
 				}
 			]

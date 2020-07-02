@@ -1,0 +1,150 @@
+/* components/css-wheel/index.wxss */
+.lottery-box {
+    background-color: #f0e68c;
+    margin: 40PX auto;
+    width: 200PX;
+    height: 200PX;
+    border-radius: 50%;
+    border: 20PX solid #ffa500;
+    box-shadow: 0px 0px 0 4px #febd04;
+}
+
+.illumination {
+    height: 200PX;
+    width: 200PX;
+    /* 生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。 */
+    position: absolute;
+}
+
+.lamp {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+    /* 生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。 */
+    /* 这里和父标签都要绝对定位，这样位置才能铺开来 */
+    position: absolute;
+    top: 50%; /* 垂直居中 */
+    left: 50%; /* 水平居中 */
+    margin: -8PX 0 0 -8PX; /* 矫正偏移 */
+    animation: twinkling 1.2s infinite ease;
+}
+
+.lamp:nth-child(1) {
+    /* 第一个点不用旋转所以是0deg，总共12个点，每个相隔30deg */
+    /* 圆的半径是100，加上20外层的中央， translateY就是-(100+20/2)*/
+    transform: rotate(0deg) translateY(-110PX);
+    /* 单数lamp才加delay，造成交错效果 */
+    animation-delay: .6s;
+}
+
+.lamp:nth-child(2) {
+    transform: rotate(30deg) translateY(-110PX);
+}
+
+.lamp:nth-child(3) {
+    transform: rotate(60deg) translateY(-110PX);
+    animation-delay: .6s;
+}
+
+.lamp:nth-child(4) {
+    transform: rotate(90deg) translateY(-110PX);
+}
+
+.lamp:nth-child(5) {
+    transform: rotate(120deg) translateY(-110PX);
+    animation-delay: .6s;
+}
+
+.lamp:nth-child(6) {
+    transform: rotate(150deg) translateY(-110PX);
+}
+
+.lamp:nth-child(7) {
+    transform: rotate(180deg) translateY(-110PX);
+    animation-delay: .6s;
+}
+
+.lamp:nth-child(8) {
+    transform: rotate(210deg) translateY(-110PX);
+}
+
+.lamp:nth-child(9) {
+    transform: rotate(240deg) translateY(-110PX);
+    animation-delay: .6s;
+}
+
+.lamp:nth-child(10) {
+    transform: rotate(270deg) translateY(-110PX);
+}
+
+.lamp:nth-child(11) {
+    transform: rotate(300deg) translateY(-110PX);
+    animation-delay: .6s;
+}
+
+.lamp:nth-child(12) {
+    transform: rotate(330deg) translateY(-110PX);
+}
+
+/* 闪耀动画 */
+@keyframes twinkling{
+    0%{
+        background: #fefdfc;
+    }   
+    50%{
+        background: #fefe00;
+    }
+}
+
+.lottery-sectors {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    margin: 60PX auto;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid #febd04;
+}
+
+.lottery-sectors-sector {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* 全部偏移向下向右 */
+    transform-origin: bottom right;
+}
+
+.lottery-sectors-sector:nth-child(1) {
+    /* 然后间隔角度60度依次旋转，且倾斜出角度成菱形。配合之前的偏移，视觉上就只剩扇形了 */
+    background-color: #FEFEFE;
+    transform: rotate(0deg) skew(30deg);
+}
+
+.lottery-sectors-sector:nth-child(2) {
+    background-color: #FFF0D0;
+    transform: rotate(60deg) skew(30deg);
+}
+
+.lottery-sectors-sector:nth-child(3) {
+    background-color: #FEFEFE;
+    transform: rotate(120deg) skew(30deg);
+}
+
+.lottery-sectors-sector:nth-child(4) {
+    background-color: #FFF0D0;
+    transform: rotate(180deg) skew(30deg);
+}
+
+.lottery-sectors-sector:nth-child(5) {
+    background-color: #FEFEFE;
+    transform: rotate(240deg) skew(30deg);
+}
+
+.lottery-sectors-sector:nth-child(6) {
+    background-color: #FFF0D0;
+    transform: rotate(300deg) skew(30deg);
+}

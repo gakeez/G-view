@@ -10,11 +10,15 @@ Page({
           title: '营销组件',
           children: [
               {
-                  id: 'big-wheel',
                   url: '/pages/big-wheel/index',
                   name: '图片版大转盘动画',
                   show: true
               },
+              {
+                url: '/pages/css-wheel/index',
+                name: 'css版大转盘动画',
+                show: true
+            },
               /* {
                   id: 'packet-rain',
                   url: '/pages/packet-rain/index',

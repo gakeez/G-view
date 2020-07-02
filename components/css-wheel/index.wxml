@@ -1,0 +1,27 @@
+<!--components/css-wheel/index.wxml-->
+<view class="lottery-box">
+    <!-- 灯饰 -->
+    <view class="illumination">
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+        <view class="lamp"></view>
+    </view>
+    <!-- 转盘 -->
+    <view class="lottery-sectors">
+        <view class="lottery-sectors-sector"></view>
+        <view class="lottery-sectors-sector"></view>
+        <view class="lottery-sectors-sector"></view>
+        <view class="lottery-sectors-sector"></view>
+        <view class="lottery-sectors-sector"></view>
+        <view class="lottery-sectors-sector"></view>
+    </view>
+</view>
