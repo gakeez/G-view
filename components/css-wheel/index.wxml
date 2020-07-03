@@ -1,7 +1,7 @@
 <!--components/css-wheel/index.wxml-->
 <view class="lottery-box">
     <!-- 灯饰 -->
-    <view class="illumination">
+    <view class="illumination"> 
         <view class="lamp"></view>
         <view class="lamp"></view>
         <view class="lamp"></view>
@@ -24,7 +24,7 @@
         <view class="lottery-sectors-sector"></view>
         <view class="lottery-sectors-sector"></view>
     </view>
-    <view class="lottery-gift" style="transform:rotate({{deg}}deg) translateZ(0)">
+    <view class="lottery-gift" style="transform-origin: center center;transform:rotate({{deg}}deg) translateZ(0)">
         <view class="lottery-gift_title">10积分</view>
         <view class="lottery-gift_title">20积分</view>
         <view class="lottery-gift_title">30积分</view>
@@ -34,7 +34,7 @@
     </view>
     <view class="pointer">
         <view class="pointer-circular">
-            <view class="pointer-circular_text" bindtap="start"><!-- <text>点击\n抽奖</text> --></view>
+            <view class="pointer-circular_text" bindtap="start"><text>点击\n抽奖</text></view>
         </view>
         <view class="pointer-triangle"></view>
     </view>
