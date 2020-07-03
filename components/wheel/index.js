@@ -1,5 +1,4 @@
 Component({
-  externalClasses: ['sol-class'],
   properties: {
       // 划分区域
       areaNumber: {

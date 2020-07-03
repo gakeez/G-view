@@ -16,7 +16,7 @@
         <view class="lamp"></view>
     </view>
     <!-- 转盘 -->
-    <view class="lottery-sectors">
+    <view class="lottery-sectors" style="transform:rotate({{deg}}deg) translateZ(0)">
         <view class="lottery-sectors-sector"></view>
         <view class="lottery-sectors-sector"></view>
         <view class="lottery-sectors-sector"></view>
@@ -24,7 +24,7 @@
         <view class="lottery-sectors-sector"></view>
         <view class="lottery-sectors-sector"></view>
     </view>
-    <view class="lottery-gift">
+    <view class="lottery-gift" style="transform:rotate({{deg}}deg) translateZ(0)">
         <view class="lottery-gift_title">10积分</view>
         <view class="lottery-gift_title">20积分</view>
         <view class="lottery-gift_title">30积分</view>
@@ -34,7 +34,7 @@
     </view>
     <view class="pointer">
         <view class="pointer-circular">
-            <view class="pointer-circular_text"><text>点击\n抽奖</text></view>
+            <view class="pointer-circular_text" bindtap="start"><!-- <text>点击\n抽奖</text> --></view>
         </view>
         <view class="pointer-triangle"></view>
     </view>

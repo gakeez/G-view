@@ -198,6 +198,7 @@
 }
 
 .pointer-circular {
+    opacity: 0.5;
     background-color: #ffa500;
     width: 60PX;
     height: 60PX;
