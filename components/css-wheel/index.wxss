@@ -148,3 +148,85 @@
     background-color: #FFF0D0;
     transform: rotate(300deg) skew(30deg);
 }
+
+.lottery-gift {
+    width: 200PX;
+    height: 200PX;
+    position: absolute;
+}
+
+.lottery-gift_title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -5PX 0 0 -20PX;
+    color: #F44336;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lottery-gift_title:nth-child(1) {
+    transform: rotate(0deg) translateY(-76PX);
+}
+
+.lottery-gift_title:nth-child(2) {
+    transform: rotate(60deg) translateY(-76PX);
+}
+
+.lottery-gift_title:nth-child(3) {
+    transform: rotate(120deg) translateY(-76PX);
+}
+
+.lottery-gift_title:nth-child(4) {
+    transform: rotate(180deg) translateY(-76PX);
+}
+
+.lottery-gift_title:nth-child(5) {
+    transform: rotate(240deg) translateY(-76PX);
+}
+
+.lottery-gift_title:nth-child(6) {
+    transform: rotate(300deg) translateY(-76PX);
+}
+
+.pointer{
+    position: absolute;
+    width: 200PX;
+    height: 200PX;
+}
+
+.pointer-circular {
+    background-color: #ffa500;
+    width: 60PX;
+    height: 60PX;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25PX 0 0 -25PX;
+}
+
+.pointer-circular_text {
+    width: 60PX;
+    height: 60PX;
+    color: #f8f8f8;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10PX;
+}
+
+.pointer-triangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 10PX solid transparent;
+    border-right: 10PX solid transparent;
+    border-bottom: 16PX solid #ffa500;
+    margin: -37PX 0 0 -5PX;
+}

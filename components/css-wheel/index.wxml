@@ -24,4 +24,18 @@
         <view class="lottery-sectors-sector"></view>
         <view class="lottery-sectors-sector"></view>
     </view>
+    <view class="lottery-gift">
+        <view class="lottery-gift_title">10积分</view>
+        <view class="lottery-gift_title">20积分</view>
+        <view class="lottery-gift_title">30积分</view>
+        <view class="lottery-gift_title">40积分</view>
+        <view class="lottery-gift_title">50积分</view>
+        <view class="lottery-gift_title">60积分</view>
+    </view>
+    <view class="pointer">
+        <view class="pointer-circular">
+            <view class="pointer-circular_text"><text>点击\n抽奖</text></view>
+        </view>
+        <view class="pointer-triangle"></view>
+    </view>
 </view>
