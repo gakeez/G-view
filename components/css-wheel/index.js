@@ -6,6 +6,14 @@ Component({
     isStart: false,
     awardNumer: 1,
     speed: 16,
+    awardList: [
+      { title: '10个金币' },
+      { title: '20个金币' },
+      { title: '30个金币' },
+      { title: '40个金币' },
+      { title: '50个金币' },
+      { title: '60个金币' }
+    ] // 顺时针对应每个奖项
   },
 
 
@@ -59,7 +67,7 @@ Component({
             // 终止setInterval()
             clearInterval(this.timer)
             // 触发成功的函数
-            this.triggerEvent('success')
+            this.success()
           }
         }
         this.setData({
@@ -67,6 +75,18 @@ Component({
           deg
         })
       }, 1000 / 60)
-    }
+    },
+
+    // 抽奖完成后操作
+    success() {
+      /* 获得中奖区域的序号 */
+      const index = this.data.awardNumer
+      console.log('bind:success', this.data.awardList[index])
+      /* 显示消息提示框 */
+      wx.showToast({
+          title: `恭喜你获得${this.data.awardList[index].title}`,
+          icon: 'none'
+      })
+  },
   }
 })
