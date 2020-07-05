@@ -18,7 +18,12 @@ Page({
                 url: '/pages/css-wheel/index',
                 name: 'css版大转盘动画',
                 show: true
-            },
+              },
+              {
+                url: '/pages/svg-wheel/index',
+                name: 'svg版大转盘动画',
+                show: true
+              },
               /* {
                   id: 'packet-rain',
                   url: '/pages/packet-rain/index',

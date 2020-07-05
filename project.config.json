@@ -76,6 +76,13 @@
 					"id": -1,
 					"name": "pages/css-wheel/index",
 					"pathName": "pages/css-wheel/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/svg-wheel/index",
+					"pathName": "pages/svg-wheel/index",
 					"scene": null
 				}
 			]

@@ -1,0 +1,18 @@
+<svg width="100%" height="100%" version="1.1"  xmlns="http://www.w3.org/2000/svg">
+<!-- <defs>元素用于预定义一个元素使其能够在SVG图像中重复使用。 -->
+    <defs>
+        <!-- SVG使用<pattern>元素来定义模式。 模式使用<pattern>元素定义，并用于以平铺方式填充图形元素。//原文出自【易百教程】，商业转载请联系作者获得授权，非商业请保留原文链接：https://www.yiibai.com/svg/svg_patterns.html -->
+        <!-- x，y是位置定位 width，height是笔刷宽高 patternUnits是指定前面宽高的单位-->
+        <pattern id="grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <path stroke="#F0F0F0" fill="none" d="M0, 0H20V20"></path>
+        </pattern>
+    </defs>
+    <!-- 引用笔刷 -->
+    <rect width="1200" height="1000" fill="url(#grid)"></rect>
+    <!-- 文字部分 -->
+    <!-- dx,dy 是相对（x，y）评议的大小。 经过平移，文字起始位置（x+dx, y+dy -->
+    <!-- dx dy 可以设置多个参数：dx="10 20 40 60 80" -->
+    <text x="100" y="100" dx="10 20 40 60 80" dy="10" style="font-size:50px; font-family:'Arial'">ABCDE</text>
+    <!-- 辅助线 -->
+    <path d="M100,0V200M0,100H200" stroke="red" />
+</svg>
