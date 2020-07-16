@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"enhance": false,
 		"postcss": true,
@@ -31,7 +31,7 @@
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.11.2",
+	"libVersion": "2.11.3",
 	"appid": "wx36f028bd339bafc7",
 	"projectname": "G-view",
 	"debugOptions": {
@@ -83,6 +83,13 @@
 					"id": -1,
 					"name": "pages/svg-wheel/index",
 					"pathName": "pages/svg-wheel/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/clock/index",
+					"pathName": "pages/clock/index",
 					"scene": null
 				}
 			]

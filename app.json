@@ -6,7 +6,8 @@
     "components/wheel/index",
     "pages/css-wheel/index",
     "components/css-wheel/index",
-    "pages/svg-wheel/index"
+    "pages/svg-wheel/index",
+    "pages/clock/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

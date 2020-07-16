@@ -44,10 +44,16 @@ Page({
               } */
           ]
       },
-      /* {
+      {
           title: '业务组件',
           children: [
-              {
+            {
+              id: 'clock',
+              url: '/pages/clock/index',
+              name: '时钟',
+              show: true
+            }
+              /* {
                   id: 'scoll-nav',
                   url: '/pages/scoll-nav/index',
                   name: '滚动导航条',
@@ -64,9 +70,9 @@ Page({
                 url: '/pages/float-icon/index',
                 name: '悬浮按钮',
                 show: true
-              }
+              } */
           ]
-      }, */
+      },
   ],
   },
 })
