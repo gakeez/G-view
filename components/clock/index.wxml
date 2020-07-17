@@ -1,10 +1,7 @@
-<!--pages/clock/index.wxml-->
-<!-- <view class="clock">-->
+<!--components/clock/index.wxml-->
+<view class="clock">
     <!-- type: 指定 canvas 类型，支持 2d (2.9.0) 和 webgl (2.7.0) -->
     <!-- canvas-id: canvas 组件的唯一标识符，若指定了 type 则无需再指定该属性 -->
     <!-- <canvas canvas-id="clock"/> -->
-    <!-- <canvas id="clock" type="2d"/> -->
-<!--</view> -->
-<view class="">
-    <clock></clock>
+    <canvas id="clock" type="2d"/>
 </view>

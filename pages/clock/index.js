@@ -18,7 +18,7 @@ Page({
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
+  /* onReady: function () {
     // wx.createSelectorQuery(): 返回一个 SelectorQuery 对象实例。在自定义组件或包含自定义组件的页面中，应使用 this.createSelectorQuery() 来代替。
     const query = wx.createSelectorQuery();
     
@@ -35,7 +35,7 @@ Page({
         // 每隔一秒生成一次指针
         setInterval(this.draw, 1000, ctx, r, rem, res[0].width, res[0].height);
       })
-  },
+  }, */
 
   /* 
     生成时钟的背景
