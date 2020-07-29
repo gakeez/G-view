@@ -20,8 +20,8 @@ Page({
                 show: true
               },
               {
-                url: '/pages/svg-wheel/index',
-                name: 'svg版大转盘动画',
+                url: '/pages/canvas-wheel/index',
+                name: 'canvas版大转盘动画',
                 show: true
               },
               /* {

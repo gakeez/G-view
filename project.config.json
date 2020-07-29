@@ -90,6 +90,7 @@
 					"id": -1,
 					"name": "pages/clock/index",
 					"pathName": "pages/clock/index",
+					"query": "",
 					"scene": null
 				}
 			]

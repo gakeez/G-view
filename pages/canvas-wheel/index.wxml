@@ -1,6 +1,6 @@
 <!--pages/svg-wheel/index.wxml-->
 <view>
     <view class="page-wheel">
-        <svg-wheel></svg-wheel>
+        <canvas-wheel></canvas-wheel>
     </view>
 </view>

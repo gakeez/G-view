@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "canvas-wheel": "/components/canvas-wheel/index"
+  }
+}

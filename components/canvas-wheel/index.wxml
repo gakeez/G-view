@@ -1,0 +1,5 @@
+<!--components/svg-wheel/index.wxml-->
+<view class="wheel">
+    <canvas id="wheel" type="2d"/>
+</view>
+
