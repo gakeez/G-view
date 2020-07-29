@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="title">
-		<view class="title-text">G-View Weapp 123</view>
+		<view class="title-text">G-View Weapp</view>
 	</view>
 	<view class="kind-list">
 		<block wx:for-items="{{components}}" wx:key="index">

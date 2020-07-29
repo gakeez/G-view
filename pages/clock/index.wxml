@@ -5,6 +5,6 @@
     <!-- <canvas canvas-id="clock"/> -->
     <!-- <canvas id="clock" type="2d"/> -->
 <!--</view> -->
-<view class="">
+<view>
     <clock></clock>
 </view>

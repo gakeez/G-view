@@ -27,7 +27,9 @@ Component({
           const ctx = canvas.getContext('2d') // 该方法返回 Canvas 的绘图上下文
           canvas.width = res[0].width // 设置画布的宽度
           canvas.height = res[0].height // 设置画布的高度
+          console.log(res[0])
           const r = canvas.width / 2; //设置半径
+          console.log(r);
           const rem = canvas.width / 200; // 设置尺寸比例。以后缩小或者放大都可以自适应显示
           this.draw(ctx, r, rem, res[0].width, res[0].height, this); // 第一次要先主动生成指针，不然计时器会慢一秒生成。还要传入this对象
           // 每隔一秒生成一次指针

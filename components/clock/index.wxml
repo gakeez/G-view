@@ -3,5 +3,5 @@
     <!-- type: 指定 canvas 类型，支持 2d (2.9.0) 和 webgl (2.7.0) -->
     <!-- canvas-id: canvas 组件的唯一标识符，若指定了 type 则无需再指定该属性 -->
     <!-- <canvas canvas-id="clock"/> -->
-    <canvas id="clock" type="2d"/>
+    <canvas type="2d" id="clock" style="border: 1px solid #cccccc;width: 300px;height: 300px;"/>
 </view>
