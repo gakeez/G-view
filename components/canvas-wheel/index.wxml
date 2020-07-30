@@ -1,5 +1,5 @@
 <!--components/svg-wheel/index.wxml-->
 <view class="wheel">
-    <canvas id="wheel" type="2d"/>
+    <canvas id="wheel" type="2d" style="width: 300px; height: 300px;" bindtouchstart="start"/>
 </view>
 
